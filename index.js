@@ -12,7 +12,7 @@ app.use(bodyParser.json());
 app.use(cors());
 
 mongoose.set('strictQuery', false);
-const db = mongoose.connect(mongodb.url)
+const db = mongoose.connect(mongodb.MONGO_URI)
 db.then(() => console.log("DB Connected successfully"))
 .catch(error => console.log("Failed to connect with DB",error))
 
