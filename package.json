@@ -1,0 +1,29 @@
+{
+  "dependencies": {
+    "aws-sdk": "^2.1391.0",
+    "axios": "^1.4.0",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dateonly": "^1.2.0",
+    "dotenv": "^16.1.4",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "mongodb": "^5.1.0",
+    "mongoose": "^6.10.0",
+    "mongoose-dateonly": "^1.0.6",
+    "multer": "^1.4.5-lts.1",
+    "multer-s3": "^3.0.1",
+    "nodemon": "^2.0.20"
+  },
+  "name": "saving",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
