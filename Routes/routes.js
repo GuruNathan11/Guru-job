@@ -44,6 +44,7 @@ router.post('/upload', upload.single('file'), async (req, res) => {
     const urlParams = {
       Bucket: bucketName,
       Key: filename,
+      Expires:604800,
     };
 
     s3.getSignedUrl('getObject', urlParams, async (err, url) => {
